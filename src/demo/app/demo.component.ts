@@ -121,6 +121,7 @@ export class DemoComponent implements OnInit {
   }
 
   onChanges(data: any) {
+    console.log('onChanges',data);
     this.liveFormData = data;
   }
 
