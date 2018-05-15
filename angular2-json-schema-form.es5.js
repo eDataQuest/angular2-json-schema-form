@@ -6734,6 +6734,8 @@ var JsonSchemaFormService = (function () {
         };
         this.ajvErrors = this.validateFormData.errors;
         this.validationErrors = compileErrors(this.validateFormData.errors);
+        console.log('onJwrData', this.data);
+        console.log('onJwrDataMap', this.dataMap);
         if (updateSubscriptions) {
             this.dataChanges.next(this.data);
             this.isValidChanges.next(this.isValid);
