@@ -1,6 +1,6 @@
 {
   "name": "angular2-json-schema-form",
-  "version": "0.7.0-alpha.1",
+  "version": "0.7.0-jwr.1",
   "author": {
     "name": "David Schnell-Davis",
     "email": "dschnelldavis@gmail.com"
@@ -52,7 +52,7 @@
     "preng-build": "rimraf dist/*",
     "ng-build": "ng build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --dist dist/ --branch angular-5-dist"
+    "deploy": "gh-pages --dist dist/ --branch jwr-dist"
   },
   "dependencies": {
     "ajv": "^6.4.0",
